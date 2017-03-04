@@ -35,15 +35,13 @@ function grabWord(element) {
 
 function getRandomWord() {
   var word = '';
+  wordArray = generateWordArray(response);
   word = wordArray[Math.floor(Math.random()*wordArray.length)];
   return word;
 }
 
 btn.onclick = function() {
-  var fancyWord = '';
-  wordArray = generateWordArray(response);
-  fancyWord = getRandomWord();
-  luxWordEl.textContent = fancyWord;
+  luxWordEl.textContent = getRandomWord();
 }
 
 

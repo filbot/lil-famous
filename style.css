@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster:400,700);
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(30deg, #c66, #66c);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  text-transform: capitalize;
+  display: flex;
+}
+
+.button {
+  font-size: 2rem;
+}
+
+.text-container {
+  color: #fff;
+  font-family: Lobster, serif;
+  font-size: 8em;
+  font-weight: 400;
+  mix-blend-mode: linear-light;
+  transition: all 500ms ease-in;
+}
+
+.lil-text,
+.luxury-word {
+  text-shadow: 0 0 4px #9cf, 1px 1px 0px transparent, 0px 0px 0px transparent;
+  animation: color-shift 15s linear infinite;
+  display: block;
+}
+
+.lil-text {
+  margin-right: 2rem;
+}
+
+.text-container:hover {
+  filter: saturate(120%);
+  -webkit-filter: saturate(120%);
+}
+
+@keyframes color-shift {
+  50% {
+    text-shadow: 0 0 4px #9cf, 1px 1px 1px #ff66de, 2px 2px 1px #ff66d6, 3px 3px 1px #ff66cf, 4px 4px 1px #ff66c7, 5px 5px 1px #ff66bf, 6px 6px 1px #ff66b8, 7px 7px 1px #ff66b0, 8px 8px 1px #ff66a8, 9px 9px 1px #ff66a1, 10px 10px 1px #ff6699, 11px 11px 1px #ff6691, 12px 12px 1px #ff668a, 13px 13px 1px #ff6682, 14px 14px 1px #ff667a, 15px 15px 1px #ff6673, 16px 16px 1px #ff666b, 17px 17px 1px #ff6966, 18px 18px 1px #ff7066, 19px 19px 1px #ff7866, 20px 20px 1px #ff8066, 21px 21px 1px #ff8766, 22px 22px 1px #ff8f66, 23px 23px 1px #ff9666, 24px 24px 1px #ff9e66, 25px 25px 1px #ffa666, 26px 26px 1px #ffad66, 27px 27px 1px #ffb566, 28px 28px 1px #ffbd66, 29px 29px 1px #ffc466, 30px 30px 1px #ffcc66, 31px 31px 1px #ffd466, 32px 32px 1px #ffdb66, 33px 33px 1px #ffe366, 34px 34px 1px #ffeb66, 35px 35px 1px #fff266, 36px 36px 1px #fffa66, 37px 37px 1px #fcff66, 38px 38px 1px #f5ff66, 39px 39px 1px #edff66, 40px 40px 1px #e6ff66, 41px 41px 1px #deff66, 42px 42px 1px #d6ff66, 43px 43px 1px #cfff66, 44px 44px 1px #c7ff66, 45px 45px 1px #bfff66, 46px 46px 1px #b8ff66, 47px 47px 1px #b0ff66, 48px 48px 1px #a8ff66, 49px 49px 1px #a1ff66, 50px 50px 1px #99ff66, 51px 51px 1px #91ff66, 52px 52px 1px #8aff66, 53px 53px 1px #82ff66, 54px 54px 1px #7aff66, 55px 55px 1px #73ff66, 56px 56px 1px #6bff66, 57px 57px 1px #66ff69, 58px 58px 1px #66ff70, 59px 59px 1px #66ff78, 60px 60px 1px #66ff80, 61px 61px 1px #66ff87, 62px 62px 1px #66ff8f, 63px 63px 1px #66ff96, 64px 64px 1px #66ff9e, 65px 65px 1px #66ffa6, 66px 66px 1px #66ffad, 67px 67px 1px #66ffb5, 68px 68px 1px #66ffbd, 69px 69px 1px #66ffc4, 70px 70px 1px #66ffcc, 71px 71px 1px #66ffd4, 72px 72px 1px #66ffdb, 73px 73px 1px #66ffe3, 74px 74px 1px #66ffeb, 75px 75px 1px #66fff2, 76px 76px 1px #66fffa, 77px 77px 1px #66fcff, 78px 78px 1px #66f5ff, 79px 79px 1px #66edff, 80px 80px 1px #66e6ff, 81px 81px 1px #66deff, 82px 82px 1px #66d6ff, 83px 83px 1px #66cfff, 84px 84px 1px #66c7ff, 85px 85px 1px #66bfff, 86px 86px 1px #66b8ff, 87px 87px 1px #66b0ff, 88px 88px 1px #66a8ff, 89px 89px 1px #66a1ff, 90px 90px 1px #6699ff, 91px 91px 1px #6691ff, 92px 92px 1px #668aff, 93px 93px 1px #6682ff, 94px 94px 1px #667aff, 95px 95px 1px #6673ff, 96px 96px 1px #666bff, 97px 97px 1px #6966ff, 98px 98px 1px #7066ff, 99px 99px 1px #7866ff, 100px 100px 1px #8066ff;
+  }
+}

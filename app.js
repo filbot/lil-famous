@@ -1,7 +1,7 @@
 var xhr = new XMLHttpRequest(),
   response,
   wordArray = [],
-  btn = document.querySelector('button'),
+  btn = document.querySelector('.button'),
   luxWordEl = document.querySelector('.luxury-word'),
   url = 'https://api.datamuse.com/words?rel_trg=luxury';
 

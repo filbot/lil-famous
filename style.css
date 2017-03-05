@@ -33,11 +33,8 @@ body {
 
 .text-container {
   color: #fff;
-  /*font-family: Lobster, serif;*/
   font-size: 8em;
   font-weight: 400;
-  mix-blend-mode: linear-light;
-  transition: all 500ms ease-in;
 }
 
 .lil-text,
@@ -49,11 +46,6 @@ body {
 
 .lil-text {
   margin-right: 2rem;
-}
-
-.text-container:hover {
-  filter: saturate(120%);
-  -webkit-filter: saturate(120%);
 }
 
 /*@keyframes color-shift {

@@ -23,6 +23,7 @@ body {
   color: purple;
   font-size: 6em;
   font-weight: 400;
+  text-shadow: 1px 1px 2px black; 
   text-transform: capitalize;
   display: flex;
   padding-left: 50px;

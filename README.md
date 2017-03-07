@@ -1,2 +1,2 @@
-# lil-fancy
+# lil-famous
 Rapper name generator
